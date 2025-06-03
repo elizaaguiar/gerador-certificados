@@ -11,7 +11,7 @@ import { Certificados } from "./pages/certificados/certificados";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [Navbar, CommonModule, PrimaryButton, SecondaryButton, ItemCertificado, BaseUi, Certificados],
+  imports: [RouterOutlet, Navbar, CommonModule, PrimaryButton, SecondaryButton, ItemCertificado, BaseUi, Certificados],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
